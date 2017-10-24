@@ -1,0 +1,282 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,body {
+    height: 100%;
+    padding-top: 1em; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color:#DBDCDD;
+	font-family: 'Ubuntu', sans-serif;
+}
+.row
+{
+	padding-bottom: 20px;
+}
+.row:empty
+{
+	display:none;
+}
+.row:hover {
+    cursor: pointer;
+}
+.col-sm-4
+{
+	box-shadow: 0px 5px 5px #888888;
+	padding-right:10px;
+	padding-left:10px;
+	height:552px;
+	margin-top:10px;
+	width:29%;
+	border-radius:5px;
+	overflow-y:auto;
+	}
+.col-sm-8
+{
+	box-shadow: 0px 5px 5px #888888;
+	padding-right:10px;
+	padding-left:10px;
+	height:552px;
+	margin-top:10px;
+	width:69%;
+	border-radius:5px;
+	overflow-y:auto;
+}
+.col-md-9
+{
+	overflow-y:auto;
+}
+.companyName
+{
+	vertical-align:middle;
+	font-weight:bold;
+	
+}
+.EditCompanyBtn
+{
+	float:right;
+	margin-left:auto;
+	margin-right:4px;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+.EditContactsBtn
+{
+	display:flex;
+	margin-left:auto;
+}
+
+.table > thead > tr > th
+{
+	vertical-align:middle;
+}
+td:empty
+{
+	display:none;
+}
+#contact1,#contact2,#contact3,#contact4,#contact5,#contact6,#contact7,#contact8,#contact9,#contact10{
+	display:flex;
+}
+
+#modalAddress
+{
+	display:flex;
+}
+#modalPhoneFax
+{
+	display:flex;
+}
+
+#city{
+	margin-top:23px;
+	margin-left:-27px;
+}
+#state{
+	margin-top:23px;
+	margin-left:-35px;
+	width:9%;
+}
+#zip{
+	margin-top:23px;
+	margin-left:-22px;
+	width:18%
+}
+#phone
+{
+	margin-top:23px;
+	margin-left:-43px;
+}
+#fax
+{
+	margin-top:23px;
+	margin-left:-22px;
+}
+#newentry
+{
+	box-shadow: 0px 5px 5px #888888;
+	height:552px;
+	border-radius:5px;
+	margin-left:15px;
+	width:98%;
+	overflow-y:auto;
+}
+#newCompanyInfo
+{
+	border-right: 1px solid #eee;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(238, 238, 238);
+}
+#newEntryCityStateZip
+{
+	display:flex;
+}
+#compNewCity
+{
+	width:48%;
+	margin-right:2%;
+}
+#compNewState
+{
+	width:23%;
+	margin-right:2%;
+}
+#compNewZip
+{
+	width:25%;
+}
+#newCompanyContact
+{
+	margin-bottom:5px;
+}
+#newCompanyNotes
+{
+	padding:8px;
+}
+#notesWarning
+{
+color: #C9302C;
+font-size: smaller;
+text-align: end;
+margin-right: 1%;
+margin-top: -2%;	
+}
+.modal-dialog
+{
+	width:50%;
+}
+.modal-content
+{
+	padding-left:5%;
+	padding-right:5%; 
+}
+.navbar
+{
+	background-color:#00447C;
+}
+#comments
+{
+	box-shadow:0px 5px 5px #888888;
+	padding-right:20px;
+	padding-left:20px;
+	border-radius:5px;
+}
+table
+{
+	background-color:#DBDCDD;
+	border-radius:5px;
+} 
+.form-control
+{
+	font-size:13px;
+
+	margin-bottom:7px;
+}
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+   background-color:#00447C;
+   text-align:center;
+   vertical-align:middle;
+}
+#footerfont
+{
+	color:#9d9d9d;
+	padding-top:25px;
+	
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
